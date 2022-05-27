@@ -1,0 +1,16 @@
+docker ps -> shows all running containers
+docker ps -a -> shows all containers
+
+docker images -> shows all local images
+docker image prune -> remove all dangling images
+docker image prune -a -> remove all unused images
+docker rmi <image> -> remove an image
+
+docker start <container> -> starts a container
+docker stop <container> -> stops a container
+docker rm <container> -> removes a container
+
+docker run -> first creates a writeable container layer over the specified image, and then starts it using the specified command
+docker run -it -> run in interactive mode with a pseudo-TTY
+docker run -d -> run in detach mode (oposed to -it)
+docker run -p -> run on a specific port

@@ -1,0 +1,16 @@
+Udemy Docker:
+
+What is Docker?
+	It is an open source container technology. A tool for creating and managing containers.
+
+What is a container?
+	- A standardized unit of software. A package of code and dependencies to run that code. (Node env for nodejs code)
+	- The same container always yields the exact same application and execution behavior. No matter where or by whom it's executed.
+	Container vs VM:
+	Containers are low impact on OS, very fast with minimal disk usage. Sharing and re-building is easy. Encapsulate apps/envs.
+
+What is an image?
+	- Templates/ Blueprints for containers
+	- Contains code + required tools/ runtimes
+What is a container?
+	- The running "unit of software"
