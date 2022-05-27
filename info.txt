@@ -1,4 +1,4 @@
-Udemy Docker:
+	Udemy Docker:
 
 What is Docker?
 	It is an open source container technology. A tool for creating and managing containers.
@@ -14,3 +14,5 @@ What is an image?
 	- Contains code + required tools/ runtimes
 What is a container?
 	- The running "unit of software"
+
+19

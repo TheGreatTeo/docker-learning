@@ -1,0 +1,15 @@
+FROM ->
+
+WORKDIR ->
+
+COPY ->
+
+RUN ->
+
+EXPOSE ->
+
+CMD ->
+
+RUN vs CMD: 
+    - example RUN node server.js -> incorrect because this would be executed whenever the image is built
+    - example CMD ["node","server.js"] -> correct because this would be executed when the container is created

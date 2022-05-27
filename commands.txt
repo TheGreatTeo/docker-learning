@@ -14,3 +14,5 @@ docker run -> first creates a writeable container layer over the specified image
 docker run -it -> run in interactive mode with a pseudo-TTY
 docker run -d -> run in detach mode (oposed to -it)
 docker run -p -> run on a specific port
+
+docker build -> build new custom image
